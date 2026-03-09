@@ -1,0 +1,54 @@
+/Users/usersdot/miniconda3/envs/GenoDiplo/bin/quast.py /Users/usersdot/BenimGenomum-Spironucleus/assembly/assembly.fasta -o /Users/usersdot/BenimGenomum-Spironucleus/quast_output
+
+Version: 5.2.0
+
+System information:
+  OS: macOS-26.3-arm64-arm-64bit (macosx)
+  Python version: 3.12.13
+  CPUs number: 8
+
+Started: 2026-03-09 01:18:23
+
+Logging to /Users/usersdot/BenimGenomum-Spironucleus/quast_output/quast.log
+NOTICE: Maximum number of threads is set to 2 (use --threads option to set it manually)
+
+CWD: /Users/usersdot/BenimGenomum-Spironucleus
+Main parameters: 
+  MODE: default, threads: 2, min contig length: 500, min alignment length: 65, min alignment IDY: 95.0, \
+  ambiguity: one, min local misassembly length: 200, min extensive misassembly length: 1000
+
+WARNING: Can't draw plots: python-matplotlib is missing or corrupted.
+
+Contigs:
+  Pre-processing...
+  /Users/usersdot/BenimGenomum-Spironucleus/assembly/assembly.fasta ==> assembly
+
+2026-03-09 01:18:29
+Running Basic statistics processor...
+  Contig files: 
+    assembly
+  Calculating N50 and L50...
+    assembly, N50 = 258722, L50 = 17, auN = 319415.3, Total length = 14658661, GC % = 34.11, # N's per 100 kbp =  0.00
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2026-03-09 01:18:30
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 1: Creating Icarus viewers...
+Done
+
+2026-03-09 01:18:30
+RESULTS:
+  Text versions of total report are saved to /Users/usersdot/BenimGenomum-Spironucleus/quast_output/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /Users/usersdot/BenimGenomum-Spironucleus/quast_output/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /Users/usersdot/BenimGenomum-Spironucleus/quast_output/report.html
+  Icarus (contig browser) is saved to /Users/usersdot/BenimGenomum-Spironucleus/quast_output/icarus.html
+  Log is saved to /Users/usersdot/BenimGenomum-Spironucleus/quast_output/quast.log
+
+Finished: 2026-03-09 01:18:30
+Elapsed time: 0:00:06.479235
+NOTICEs: 2; WARNINGs: 1; non-fatal ERRORs: 0
+
+Thank you for using QUAST!
