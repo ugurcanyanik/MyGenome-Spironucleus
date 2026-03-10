@@ -1,0 +1,9 @@
+# Config for Spironucleus salmonicida
+# Adapted from GenoDiplo format
+
+samples:
+  spironucleus_salmonicida:
+    reads: "./ham_veri/SRR8895275.fastq"
+
+genome_size: "12.9m"
+threads: 4
